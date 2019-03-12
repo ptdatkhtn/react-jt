@@ -57,6 +57,10 @@
 
 /* Colors */
 
+.inherit {
+  color: inherit;
+}
+
 .black {
   color: var(--black);
 }

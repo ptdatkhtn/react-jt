@@ -1,18 +1,26 @@
 import clsx from 'clsx';
-import React, {ReactNode} from 'react';
+import React, {
+  ReactNode,
+  createElement,
+  AllHTMLAttributes,
+  Component,
+} from 'react';
 
 import styles from './Typo.module.css';
 
-export interface ITypoProps {
+export interface ITypoProps<T> extends AllHTMLAttributes<T> {
   children: ReactNode;
-  align: string;
-  color: string;
-  tag: string;
+  align?: string;
+  color?: string;
+  tag?: string;
   className?: string;
+  variant?: string;
 }
 
 export function getColor(color: string) {
   switch (color) {
+    case 'inherit':
+      return styles.inherit;
     case 'black':
       return styles.black;
     case 'darkGrey':
@@ -61,26 +69,32 @@ export function getAlign(align: string) {
   return styles.left;
 }
 
-const Typo = ({children, align, color, tag, className}: ITypoProps) => {
-  return (
-    <div
-      className={clsx(
-        styles.typo,
-        getTag(tag),
-        getColor(color),
-        getAlign(align),
-        className,
-      )}
-    >
-      {children}
-    </div>
-  );
-};
-
-Typo.defaultProps = {
-  align: 'left',
-  color: 'black',
-  tag: 'body1',
-};
+class Typo<T = HTMLSpanElement> extends Component<ITypoProps<T>> {
+  public render() {
+    const {
+      children,
+      align = 'left',
+      color = 'black',
+      variant = 'body1',
+      tag = 'span',
+      className,
+      ...other
+    } = this.props;
+    return createElement(
+      tag,
+      {
+        ...other,
+        className: clsx(
+          styles.typo,
+          getTag(variant),
+          getColor(color),
+          getAlign(align),
+          className,
+        ),
+      },
+      children,
+    );
+  }
+}
 
 export default Typo;
