@@ -1,15 +1,14 @@
 import React, {Component} from 'react';
 import './App.css';
-import Typo from './components/Typo';
+import Button, {ButtonVariants} from './components/Button';
 
 class App extends Component {
   public render() {
     return (
       <div className="App">
         <header className="App-header">
-          <Typo tag="h1" color="white">
-            JuzTalent 3.0 - CMS
-          </Typo>
+          <Button>AA</Button>
+          <Button variant={ButtonVariants.Secondary}>AA</Button>
           <a
             className="App-link"
             href="https://juztalent.com"
