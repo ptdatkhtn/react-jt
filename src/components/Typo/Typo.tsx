@@ -7,74 +7,75 @@ import React, {
 } from 'react';
 
 import styles from './Typo.module.css';
+import {TypoColors, TypoVariants, TypoAlignment} from './types';
 
 export interface ITypoProps<T> extends AllHTMLAttributes<T> {
   children: ReactNode;
-  align?: string;
-  color?: string;
+  align?: TypoAlignment;
+  color?: TypoColors;
   tag?: string;
   className?: string;
-  variant?: string;
+  variant?: TypoVariants;
 }
 
 class Typo<T = HTMLSpanElement> extends Component<ITypoProps<T>> {
   private static getColor(color: string) {
     switch (color) {
       case 'inherit':
-        return styles.inherit;
+        return TypoColors.inherit;
       case 'black':
-        return styles.black;
-      case 'darkGrey':
-        return styles.darkGrey;
+        return TypoColors.black;
+      case 'greyDark':
+        return TypoColors.greyDark;
       case 'white':
-        return styles.white;
+        return TypoColors.white;
       case 'blue':
-        return styles.blue;
+        return TypoColors.blue;
       case 'red':
-        return styles.red;
+        return TypoColors.red;
       default:
-        return styles.black;
+        return TypoColors.black;
     }
   }
 
-  private static getTag(tag: string) {
-    switch (tag) {
+  private static getVariant(variant: string) {
+    switch (variant) {
       case 'h1':
-        return styles.h1;
+        return TypoVariants.h1;
       case 'h2':
-        return styles.h2;
+        return TypoVariants.h2;
       case 'h3':
-        return styles.h3;
+        return TypoVariants.h3;
       case 'h4':
-        return styles.h4;
+        return TypoVariants.h4;
       case 'h5':
-        return styles.h5;
+        return TypoVariants.h5;
       case 'body1':
-        return styles.body1;
+        return TypoVariants.body1;
       case 'body2':
-        return styles.body2;
+        return TypoVariants.body2;
       case 'button':
-        return styles.button;
+        return TypoVariants.button;
       case 'subTitle':
-        return styles.subTitle;
+        return TypoVariants.subTitle;
       default:
-        return styles.body1;
+        return TypoVariants.body1;
     }
   }
 
   private static getAlign(align: string) {
     if ('middle' === align) {
-      return styles.middle;
+      return TypoAlignment.middle;
     }
-    return styles.left;
+    return TypoAlignment.left;
   }
 
   public render() {
     const {
       children,
       align = 'left',
-      color = 'black',
-      variant = 'body1',
+      color = TypoColors.black,
+      variant = TypoVariants.body1,
       tag = 'span',
       className,
       ...other
@@ -85,7 +86,7 @@ class Typo<T = HTMLSpanElement> extends Component<ITypoProps<T>> {
         ...other,
         className: clsx(
           styles.typo,
-          Typo.getTag(variant),
+          Typo.getVariant(variant),
           Typo.getColor(color),
           Typo.getAlign(align),
           className,

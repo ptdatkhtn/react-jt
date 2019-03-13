@@ -3,6 +3,7 @@ import clsx from 'clsx';
 import Typo from '../Typo';
 import styles from './Button.module.css';
 import {ButtonVariants} from './types';
+import {TypoVariants, TypoColors, TypoAlignment} from '../Typo/types';
 
 export interface IButtonProps
   extends AllHTMLAttributes<HTMLButtonElement | HTMLAnchorElement> {
@@ -23,9 +24,9 @@ const Button = ({
   <Typo
     {...other}
     tag="button"
-    color="inherit"
-    variant="button"
-    align="middle"
+    color={TypoColors.inherit}
+    variant={TypoVariants.button}
+    align={TypoAlignment.middle}
     className={clsx(
       styles.wrap,
       className,

@@ -1,3 +1,14 @@
 :global(.button-row) > button {
-  margin: 0 5px;
+  margin: 0 0.5rem;
+}
+
+/* Typo */
+
+:global(.typo-list) {
+  padding: 0;
+  list-style-type: none;
+}
+
+:global(.typo-list) > li {
+  margin: 0.5rem 0;
 }

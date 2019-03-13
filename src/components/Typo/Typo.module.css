@@ -65,11 +65,11 @@
   color: var(--black);
 }
 
-.darkGrey {
+.greyDark {
   color: var(--grey-dark);
 }
 
-.mediumGrey {
+.greyMedium {
   color: var(--grey-medium);
 }
 
