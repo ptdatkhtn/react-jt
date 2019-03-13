@@ -1,0 +1,120 @@
+/* Foundation */
+
+.textField {
+  position: relative;
+  border-radius: 0.1875rem;
+  border: 0.09375rem solid var(--grey-light);
+}
+
+/* Label */
+
+.formLabel {
+  position: relative;
+  flex-grow: 1;
+}
+
+.label {
+  position: absolute;
+  top: -0.5rem;
+  left: 0;
+  padding: 0 0.25rem;
+  margin: 0 -0.25rem;
+  background-color: var(--white);
+  opacity: 0;
+}
+
+.activedLabel {
+  top: -1.25rem;
+  opacity: 1;
+  animation: showLabel 100ms ease-out;
+}
+
+.deactivedLabel {
+  top: -0.5rem;
+  opacity: 0;
+  animation: hideLabel 100ms ease-out;
+}
+
+@keyframes showLabel {
+  from {
+    top: -0.5rem;
+    opacity: 0;
+  }
+  to {
+    top: -1.25rem;
+    opacity: 1;
+  }
+}
+
+@keyframes hideLabel {
+  from {
+    top: -1.25rem;
+    opacity: 1;
+  }
+  to {
+    top: -0.5rem;
+    opacity: 0;
+  }
+}
+
+/* Input */
+
+.input {
+  width: 100%;
+  font-size: 1rem;
+  color: var(--black);
+  outline: none;
+  border: none;
+}
+
+::placeholder {
+  color: var(--grey-medium);
+}
+
+.icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 1rem;
+}
+
+/* Group */
+
+.formGroup {
+  display: flex;
+  align-items: center;
+}
+
+.formGroup.reverse {
+  flex-direction: row-reverse;
+}
+
+.formGroup.reverse .icon {
+  margin-left: 0;
+  margin-right: 1rem;
+}
+
+/* Assistive Text */
+
+.assistiveText {
+  padding: 0 0.8125rem;
+  margin-top: 0.5rem;
+}
+
+/* Activation */
+
+.textField.normal {
+  padding: 0.5rem 0.8125rem;
+}
+
+.textField.focus {
+  border-color: var(--black);
+  color: var(--black);
+}
+
+.textField.tall {
+  padding: 1rem 0.8125rem;
+}
+
+.textField.tall .label {
+  top: -1.75rem;
+}
