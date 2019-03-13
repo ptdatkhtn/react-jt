@@ -3,7 +3,7 @@ import clsx from 'clsx';
 import Typo from '../Typo';
 import styles from './Button.module.css';
 import {ButtonVariants} from './types';
-import {TypoVariants, TypoColors, TypoAlignment} from '../Typo/types';
+import {TypoVariants, TypoColors, TypoAlignment} from '../Typo';
 
 export interface IButtonProps
   extends AllHTMLAttributes<HTMLButtonElement | HTMLAnchorElement> {

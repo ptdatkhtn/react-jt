@@ -13,6 +13,9 @@ const config = {
           use: [
             {
               loader: 'awesome-typescript-loader',
+              options: {
+                configFileName: 'tsconfig-styleguidist.json',
+              },
             },
           ],
         },
