@@ -50,6 +50,7 @@ const config = {
     },
   ],
   ignore: [
+    '**/Icons/**',
     '**/types.ts',
     '**/types.tsx',
     '**/index.ts',
