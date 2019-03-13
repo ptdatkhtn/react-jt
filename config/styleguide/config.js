@@ -41,6 +41,10 @@ const config = {
   },
   sections: [
     {
+      name: 'Icons',
+      content: path.resolve(root, 'src/components/Icons/Icons.md'),
+    },
+    {
       name: 'Components',
       components: path.resolve(root, 'src/components/**/*.{ts,tsx}'),
     },

@@ -12,3 +12,16 @@
 :global(.typo-list) > li {
   margin: 0.5rem 0;
 }
+
+:global(.icon-list) {
+  background-color: #1f94cb;
+  color: #fff;
+  font-size: 1.5rem;
+  display: flex;
+  padding: 1rem;
+}
+
+:global(.icon-list) > div {
+  margin: 0 0.5rem;
+  display: inline-flex;
+}
