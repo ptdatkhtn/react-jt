@@ -2,27 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f38d100-11cc-4612-9637-754aab218705" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Table/Table.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Table/Table.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Table/Table.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Table/TableBody/TableBody.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Table/TableBody/TableBody.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Table/TableBody/TableBody.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Table/TableBody/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Table/TableCell/TableCell.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Table/TableCell/TableCell.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Table/TableCell/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Table/TableContent.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Table/TableHead/TableHead.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Table/TableHead/TableHead.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Table/TableHead/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Table/TableRow/TableRow.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Table/TableRow/TableRow.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Table/TableRow/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Table/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/styleguide/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/styleguide/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/styleguide/demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/config/styleguide/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Table/TableContext.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Table/TableBody/TableBody.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Table/TableBody/TableBody.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Table/TableCell/TableCell.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Table/TableCell/TableCell.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Table/TableContent.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Table/TableHead/TableHead.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Table/TableHead/TableHead.tsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -55,11 +39,11 @@
           <entry key="ico" value="2" />
           <entry key="js" value="7" />
           <entry key="json" value="18" />
-          <entry key="md" value="15" />
+          <entry key="md" value="16" />
           <entry key="prettierrc" value="1" />
           <entry key="svg" value="3" />
           <entry key="ts" value="6" />
-          <entry key="tsx" value="61" />
+          <entry key="tsx" value="66" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -69,10 +53,10 @@
           <entry key="Image" value="2" />
           <entry key="JSON" value="16" />
           <entry key="JavaScript" value="7" />
-          <entry key="PLAIN_TEXT" value="17" />
+          <entry key="PLAIN_TEXT" value="18" />
           <entry key="SVG" value="3" />
           <entry key="TypeScript" value="6" />
-          <entry key="TypeScript JSX" value="61" />
+          <entry key="TypeScript JSX" value="66" />
           <entry key="tsconfig" value="3" />
         </counts>
       </usages-collector>
@@ -91,7 +75,7 @@
           <entry key="json" value="37" />
           <entry key="md" value="1" />
           <entry key="ts" value="4" />
-          <entry key="tsx" value="299" />
+          <entry key="tsx" value="305" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -102,7 +86,7 @@
           <entry key="JavaScript" value="5" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="TypeScript" value="4" />
-          <entry key="TypeScript JSX" value="299" />
+          <entry key="TypeScript JSX" value="305" />
         </counts>
       </usages-collector>
     </session>
@@ -135,20 +119,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Table/TableBody/TableBody.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-              <folding>
-                <element signature="e#74#117#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Table/TableBody/TableBody.module.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="34">
+              <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -174,17 +146,44 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Table/TableHead/TableHead.tsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+              <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Table/TableContent.tsx">
+        <entry file="file://$PROJECT_DIR$/src/components/Table/TableRow/index.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Table/TableCell/index.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Table/TableCell/TableCell.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Table/TableContext.tsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
@@ -192,29 +191,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Table/Table.module.css">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/Table/TableRow/TableRow.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Table/Table.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Table/index.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="153">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -242,7 +223,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tslint.json" />
         <option value="$PROJECT_DIR$/config/styleguide/Wrapper.tsx.ts" />
         <option value="$PROJECT_DIR$/config/styleguide/Wrapper.tsx" />
         <option value="$PROJECT_DIR$/src/components/Button/Button.md" />
@@ -284,13 +264,14 @@
         <option value="$PROJECT_DIR$/src/components/Table/TableHead/TableHead.module.css" />
         <option value="$PROJECT_DIR$/src/components/Table/TableContent.tsx" />
         <option value="$PROJECT_DIR$/src/components/Table/TableCell/index.tsx" />
-        <option value="$PROJECT_DIR$/src/components/Table/TableCell/TableCell.tsx" />
         <option value="$PROJECT_DIR$/src/components/Table/TableCell/TableCell.module.css" />
         <option value="$PROJECT_DIR$/src/components/Table/TableBody/index.tsx" />
         <option value="$PROJECT_DIR$/src/components/Table/TableBody/TableBody.module.css" />
         <option value="$PROJECT_DIR$/src/components/Table/Table.tsx" />
         <option value="$PROJECT_DIR$/src/components/Table/Table.module.css" />
         <option value="$PROJECT_DIR$/src/components/Table/Table.md" />
+        <option value="$PROJECT_DIR$/src/components/Table/TableContext.tsx" />
+        <option value="$PROJECT_DIR$/src/components/Table/TableCell/TableCell.tsx" />
         <option value="$PROJECT_DIR$/src/components/Table/TableBody/TableBody.tsx" />
         <option value="$PROJECT_DIR$/src/components/Table/TableHead/TableHead.tsx" />
       </list>
@@ -370,6 +351,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="Table" type="462c0819:PsiDirectoryNode" />
+              <item name="TableCell" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-jt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-jt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Table" type="462c0819:PsiDirectoryNode" />
               <item name="TableHead" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -379,6 +368,13 @@
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="Table" type="462c0819:PsiDirectoryNode" />
               <item name="TableRow" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-jt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-jt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Typo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -458,12 +454,12 @@
       <workItem from="1552485855081" duration="306000" />
       <workItem from="1552486206337" duration="15000" />
       <workItem from="1552536423302" duration="301000" />
-      <workItem from="1552560324416" duration="964000" />
+      <workItem from="1552560324416" duration="1392000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30469000" />
+    <option name="totallyTimeSpent" value="30897000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -500,13 +496,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
-          <caret line="14045" column="24" selection-start-line="14045" selection-start-column="24" selection-end-line="14045" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/react-app-env.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -708,18 +697,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Table/TableBody/TableBody.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Table/TableRow/TableRow.module.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Table/TableRow/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.tsx">
       <provider selected="true" editor-type-id="text-editor">
@@ -735,34 +714,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Table/TableRow/TableRow.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Table/TableHead/TableHead.module.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Table/TableCell/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Table/TableCell/TableCell.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -808,23 +763,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Table/TableBody/TableBody.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding>
-            <element signature="e#74#117#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Table/TableContent.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Table/Table.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -842,10 +780,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Table/TableRow/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Table/TableCell/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Table/TableBody/TableBody.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Table/TableContent.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Table/TableCell/TableCell.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Table/TableBody/TableBody.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Table/TableHead/TableHead.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Table/TableContext.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Table/TableRow/TableRow.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>

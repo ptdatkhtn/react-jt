@@ -1,6 +1,5 @@
 import React, {ReactNode, AllHTMLAttributes} from 'react';
 
-// @ts-ignore
 import TableContext from '../TableContext';
 import Typo, {TypoVariants, TypoColors} from '../../Typo';
 

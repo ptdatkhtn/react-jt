@@ -1,6 +1,5 @@
 import React, {ReactNode, AllHTMLAttributes} from 'react';
 
-// @ts-ignore
 import TableContext from '../TableContext';
 
 import styles from './TableBody.module.css';
