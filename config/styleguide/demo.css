@@ -13,6 +13,8 @@
   margin: 0.5rem 0;
 }
 
+/* Icons */
+
 :global(.icon-list) {
   background-color: #1f94cb;
   color: #fff;
@@ -24,4 +26,22 @@
 :global(.icon-list) > div {
   margin: 0 0.5rem;
   display: inline-flex;
+}
+
+/* Table */
+
+:global(.table__wrapper) {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+:global(.table__button) {
+  display: inline-flex !important;
+  min-width: 0 !important;
+  padding: 0.5rem !important;
+  margin: 0 0.25rem !important;
+  border-radius: 50% !important;
+  font-size: 1.5rem !important;
+  color: #9ca2a7 !important;
 }

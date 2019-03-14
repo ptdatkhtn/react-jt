@@ -59,6 +59,10 @@ const config = {
     '**/*.spec.jsx',
     '**/*.spec.ts',
     '**/*.spec.tsx',
+    '**/Table/TableBody/**',
+    '**/Table/TableCell/**',
+    '**/Table/TableHead/**',
+    '**/Table/TableRow/**',
   ],
   styleguideComponents: {
     Wrapper: path.join(root, 'config/styleguide/Wrapper'),
