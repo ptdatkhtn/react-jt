@@ -1,15 +1,17 @@
-Icon Edit
-
 ```js
-const Edit = require('./Edit').default;
-const Delete = require('./Delete').default;
-const Setting = require('./Setting').default;
-const EPayRoll = require('./EPayRoll').default;
-const ETime = require('./ETime').default;
-const ArrowDown = require('./ArrowDown').default;
-const ArrowLeft = require('./ArrowLeft').default;
-const ArrowRight = require('./ArrowRight').default;
-const ArrowUp = require('./ArrowUp').default;
+const {
+  Edit,
+  Delete,
+  Setting,
+  EPayRoll,
+  ETime,
+  ArrowDown,
+  ArrowLeft,
+  ArrowRight,
+  ArrowUp,
+  Notification,
+  Account,
+} = require('./');
 
 <div className="icon-list">
   <div>
@@ -35,6 +37,24 @@ const ArrowUp = require('./ArrowUp').default;
   </div>
   <div>
     <ETime active={true} />
+  </div>
+  <div>
+    <ArrowDown />
+  </div>
+  <div>
+    <ArrowLeft />
+  </div>
+  <div>
+    <ArrowUp />
+  </div>
+  <div>
+    <ArrowRight />
+  </div>
+  <div>
+    <Notification />
+  </div>
+  <div>
+    <Account />
   </div>
 </div>;
 ```
