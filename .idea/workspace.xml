@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f38d100-11cc-4612-9637-754aab218705" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Table/TableContext.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Table/TableBody/TableBody.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Table/TableBody/TableBody.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Table/TableCell/TableCell.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Table/TableCell/TableCell.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Table/TableContent.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Table/TableHead/TableHead.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Table/TableHead/TableHead.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Icons/ArrowDown.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Icons/ArrowLeft.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Icons/ArrowRight.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Icons/ArrowUp.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Icons/EPayRoll.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Icons/EPayRoll.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Icons/Icons.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Icons/Icons.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,11 +41,11 @@
           <entry key="ico" value="2" />
           <entry key="js" value="7" />
           <entry key="json" value="18" />
-          <entry key="md" value="16" />
+          <entry key="md" value="17" />
           <entry key="prettierrc" value="1" />
           <entry key="svg" value="3" />
           <entry key="ts" value="6" />
-          <entry key="tsx" value="66" />
+          <entry key="tsx" value="71" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -53,10 +55,10 @@
           <entry key="Image" value="2" />
           <entry key="JSON" value="16" />
           <entry key="JavaScript" value="7" />
-          <entry key="PLAIN_TEXT" value="18" />
+          <entry key="PLAIN_TEXT" value="19" />
           <entry key="SVG" value="3" />
           <entry key="TypeScript" value="6" />
-          <entry key="TypeScript JSX" value="66" />
+          <entry key="TypeScript JSX" value="71" />
           <entry key="tsconfig" value="3" />
         </counts>
       </usages-collector>
@@ -75,7 +77,7 @@
           <entry key="json" value="37" />
           <entry key="md" value="1" />
           <entry key="ts" value="4" />
-          <entry key="tsx" value="305" />
+          <entry key="tsx" value="307" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -86,7 +88,7 @@
           <entry key="JavaScript" value="5" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="TypeScript" value="4" />
-          <entry key="TypeScript JSX" value="305" />
+          <entry key="TypeScript JSX" value="307" />
         </counts>
       </usages-collector>
     </session>
@@ -108,94 +110,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Table/TableBody/index.tsx">
+        <entry file="file://$PROJECT_DIR$/src/components/Icons/ArrowDown.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="204">
+              <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Table/TableBody/TableBody.tsx">
+        <entry file="file://$PROJECT_DIR$/src/components/Icons/Icons.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Table/Table.tsx">
+        <entry file="file://$PROJECT_DIR$/src/components/Icons/ArrowUp.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Table/TableHead/index.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Table/TableHead/TableHead.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Table/TableRow/index.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Table/TableCell/index.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Table/TableCell/TableCell.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Table/TableContext.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="272">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/Table/TableRow/TableRow.tsx">
+        <entry file="file://$PROJECT_DIR$/src/components/Icons/ArrowLeft.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="272">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Icons/ArrowRight.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -223,10 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/config/styleguide/Wrapper.tsx.ts" />
-        <option value="$PROJECT_DIR$/config/styleguide/Wrapper.tsx" />
-        <option value="$PROJECT_DIR$/src/components/Button/Button.md" />
-        <option value="$PROJECT_DIR$/src/components/Button/Button.module.css" />
         <option value="$PROJECT_DIR$/src/components/Button/index.tsx" />
         <option value="$PROJECT_DIR$/src/components/Button/types.tsx" />
         <option value="$PROJECT_DIR$/config/test.config.js" />
@@ -250,10 +200,8 @@
         <option value="$PROJECT_DIR$/src/App.tsx" />
         <option value="$PROJECT_DIR$/src/components/Icons/index.tsx" />
         <option value="$PROJECT_DIR$/src/components/Icons/Setting.tsx" />
-        <option value="$PROJECT_DIR$/src/components/Icons/Icons.md" />
         <option value="$PROJECT_DIR$/src/components/Icons/Edit.tsx" />
         <option value="$PROJECT_DIR$/src/components/Icons/ETime.tsx" />
-        <option value="$PROJECT_DIR$/src/components/Icons/EPayRoll.tsx" />
         <option value="$PROJECT_DIR$/src/components/Icons/Delete.tsx" />
         <option value="$PROJECT_DIR$/config/styleguide/config.js" />
         <option value="$PROJECT_DIR$/config/styleguide/demo.css" />
@@ -274,6 +222,12 @@
         <option value="$PROJECT_DIR$/src/components/Table/TableCell/TableCell.tsx" />
         <option value="$PROJECT_DIR$/src/components/Table/TableBody/TableBody.tsx" />
         <option value="$PROJECT_DIR$/src/components/Table/TableHead/TableHead.tsx" />
+        <option value="$PROJECT_DIR$/src/components/Icons/ArrowDown.tsx" />
+        <option value="$PROJECT_DIR$/src/components/Icons/EPayRoll.tsx" />
+        <option value="$PROJECT_DIR$/src/components/Icons/Icons.md" />
+        <option value="$PROJECT_DIR$/src/components/Icons/ArrowUp.tsx" />
+        <option value="$PROJECT_DIR$/src/components/Icons/ArrowRight.tsx" />
+        <option value="$PROJECT_DIR$/src/components/Icons/ArrowLeft.tsx" />
       </list>
     </option>
   </component>
@@ -328,53 +282,7 @@
               <item name="react-jt" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Button" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-jt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-jt" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Table" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-jt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-jt" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Table" type="462c0819:PsiDirectoryNode" />
-              <item name="TableBody" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-jt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-jt" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Table" type="462c0819:PsiDirectoryNode" />
-              <item name="TableCell" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-jt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-jt" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Table" type="462c0819:PsiDirectoryNode" />
-              <item name="TableHead" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-jt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-jt" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Table" type="462c0819:PsiDirectoryNode" />
-              <item name="TableRow" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-jt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-jt" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Typo" type="462c0819:PsiDirectoryNode" />
+              <item name="Icons" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -454,12 +362,12 @@
       <workItem from="1552485855081" duration="306000" />
       <workItem from="1552486206337" duration="15000" />
       <workItem from="1552536423302" duration="301000" />
-      <workItem from="1552560324416" duration="1392000" />
+      <workItem from="1552560324416" duration="1838000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30897000" />
+    <option name="totallyTimeSpent" value="31343000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -496,34 +404,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/react-app-env.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="39" selection-start-column="39" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Button/Button.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Typo/Typo.module.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="71" column="11" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Typo/Typo.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tsconfig.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -641,13 +521,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Icons/EPayRoll.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Icons/ETime.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -659,13 +532,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Icons/Icons.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
@@ -763,24 +629,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Table/Table.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Table/TableHead/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Table/TableRow/index.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
@@ -804,24 +653,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Table/TableCell/TableCell.tsx">
+    <entry file="file://$PROJECT_DIR$/src/components/Table/TableRow/index.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Table/TableBody/TableBody.tsx">
+    <entry file="file://$PROJECT_DIR$/src/components/Table/TableCell/TableCell.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        <state relative-caret-position="-578">
+          <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Table/TableHead/TableHead.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        <state relative-caret-position="221">
+          <caret line="13" column="52" lean-forward="true" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Table/Table.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -832,10 +694,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Table/TableBody/TableBody.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Table/TableRow/TableRow.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Icons/EPayRoll.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="17" column="353" selection-start-line="17" selection-start-column="353" selection-end-line="17" selection-end-column="353" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Icons/ArrowDown.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Icons/Icons.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Icons/ArrowUp.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Icons/ArrowRight.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Icons/ArrowLeft.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>

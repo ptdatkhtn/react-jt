@@ -6,6 +6,10 @@ const Delete = require('./Delete').default;
 const Setting = require('./Setting').default;
 const EPayRoll = require('./EPayRoll').default;
 const ETime = require('./ETime').default;
+const ArrowDown = require('./ArrowDown').default;
+const ArrowLeft = require('./ArrowLeft').default;
+const ArrowRight = require('./ArrowRight').default;
+const ArrowUp = require('./ArrowUp').default;
 
 <div className="icon-list">
   <div>
