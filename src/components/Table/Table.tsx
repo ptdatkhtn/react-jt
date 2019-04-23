@@ -1,16 +1,16 @@
-import React, {ReactNode} from 'react';
+import React, {ReactNode, AllHTMLAttributes} from 'react';
 
 import styles from './Table.module.css';
 
-export interface ITableProps {
+export interface ITableProps extends AllHTMLAttributes<HTMLTableElement> {
   children: ReactNode;
 }
 
-const Table = ({children}: ITableProps) => {
+const Table = ({children, ...others}: ITableProps) => {
   return (
-    <div className={styles.table}>
-      <table className={styles.container}>{children}</table>
-    </div>
+    <table className={styles.table} {...others}>
+      {children}
+    </table>
   );
 };
 
