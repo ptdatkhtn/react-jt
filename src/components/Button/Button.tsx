@@ -18,6 +18,7 @@ const Button = ({
   children,
   className,
   variant,
+  name,
   display,
   ...other
 }: IButtonProps) => (
